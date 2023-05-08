@@ -1,12 +1,12 @@
 #!/usb/bin/env python3
-VERSION = "XFW-0045"
+VERSION = "XFW-0046"
+
+import json
+import os
+import subprocess
+from datetime import date, datetime
 
 from flipper.app import App
-
-import subprocess
-import os
-import json
-from datetime import date, datetime
 
 
 class GitVersion:
